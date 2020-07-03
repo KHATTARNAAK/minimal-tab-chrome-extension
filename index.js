@@ -1,3 +1,4 @@
+import changeColor from "./changeColour";
 function showTime() {
   const date = new Date();
   let hours = date.getHours();
@@ -19,10 +20,9 @@ function showTime() {
 setInterval(showTime, 1000);
 
 const colorButton = document.querySelector(".color-button");
-const colorDiv = colorButton.parentElement;
 colorButton.addEventListener("click", changeColor);
 
-function changeColor(event) {
+function changeColor() {
   if (colorButton.innerHTML === '<i class="fas fa-bolt"></i>') {
     // removing dark mode
     document.body.classList.replace("dark-mode", "light-mode");
