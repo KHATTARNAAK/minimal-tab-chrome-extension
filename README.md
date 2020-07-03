@@ -9,6 +9,10 @@ a minimal digital clock for your new tab.
 ## Description
 A chrome extension to replace the new tab page with a minimal clock with both dark and light modes.
 
+## Images
+![Image Light Mode](https://github.com/manavendrasen/minimal-tab-chrome-extension/blob/master/screenshots/1.png)
+![Image Dark Mode](https://github.com/manavendrasen/minimal-tab-chrome-extension/blob/master/screenshots/2.png)
+
 ## Contributing
 To contribute, follow these steps:
 
