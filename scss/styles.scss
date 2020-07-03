@@ -5,7 +5,7 @@
 $text-font: "Roboto", sans-serif;
 $heading-font: "Quicksand ", sans-serif;
 $text-font: "Quicksand", sans-serif;
-$background-color-dark: #263238;
+$background-color-dark: #000000;
 $background-color-light: #ffffff;
 
 * {
@@ -19,8 +19,20 @@ body {
 .dark-mode {
   background-color: $background-color-dark;
   color: white;
+  .clock {
+    color: #263238;
+    &:hover {
+      color: #ffffff;
+    }
+  }
 }
 .light-mode {
   background-color: $background-color-light;
   color: black;
+  .clock {
+    color: #cfd8dc;
+    &:hover {
+      color: #000000;
+    }
+  }
 }

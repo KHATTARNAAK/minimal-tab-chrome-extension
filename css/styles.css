@@ -1,18 +1,50 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container .clock {
+  font-weight: 900;
+  font-size: 10rem;
+  transition: all 1s ease;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: "Quicksand", sans-serif;
+  margin: 0em;
+  padding: 0em;
 }
 
 .dark-mode {
-  background-color: #263238;
+  background-color: #000000;
   color: white;
+}
+
+.dark-mode .clock {
+  color: #263238;
+}
+
+.dark-mode .clock:hover {
+  color: #ffffff;
 }
 
 .light-mode {
   background-color: #ffffff;
   color: black;
+}
+
+.light-mode .clock {
+  color: #cfd8dc;
+}
+
+.light-mode .clock:hover {
+  color: #000000;
 }
 /*# sourceMappingURL=styles.css.map */
