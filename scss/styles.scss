@@ -1,0 +1,22 @@
+//imports
+@import "./container";
+
+$heading-font: "Quicksand ", sans-serif;
+$text-font: "Quicksand", sans-serif;
+$background-color-dark: #263238;
+$background-color-light: #ffffff;
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: $text-font;
+}
+.dark-mode {
+  background-color: $background-color-dark;
+  color: white;
+}
+.light-mode {
+  background-color: $background-color-light;
+  color: black;
+}
