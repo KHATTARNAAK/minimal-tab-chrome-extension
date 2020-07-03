@@ -1,9 +1,14 @@
 {
   "name": "minimal tab",
-  "version": "0.1",
-  "description": "Build an Extension!",
+  "version": "0.1.1",
+  "description": "a minimal digital clock for your new tab.",
   "chrome_url_overrides": {
     "newtab": "./index.html"
+  },
+  "icons": {
+    "16": "./icons/16icon.ico",
+    "48": "./icons/48icon.ico",
+    "128": "./icons/128icon.ico"
   },
   "manifest_version": 2
 }
