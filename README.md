@@ -18,8 +18,8 @@ A chrome extension to replace the new tab page with a minimal clock with both da
 Since the extension is not public yet. To use it on your machine, download this repo as a zip and then unzip the project.
 
 1. Open the Extension Management page on your **chromium based browser** by navigating to chrome://extensions.
-2. The Extension Management page can also be opened by clicking on the Chrome menu, hovering over More Tools then selecting Extensions.
-* Enable Developer Mode by clicking the toggle switch next to Developer mode.
+ * The Extension Management page can also be opened by clicking on the Chrome menu, hovering over More Tools then selecting Extensions.
+2. Enable Developer Mode by clicking the toggle switch next to Developer mode.
 3. Click the **LOAD UNPACKED** button and select the extension directory.
 
 ## Contributing
