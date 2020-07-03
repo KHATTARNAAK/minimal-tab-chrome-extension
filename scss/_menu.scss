@@ -1,0 +1,33 @@
+@import "./config";
+
+//Dark Light mode tiggler
+.change-color {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+  button {
+    outline: 0em;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    &:focus {
+      outline: none !important;
+    }
+    &:hover {
+      color: $accent-color;
+    }
+  }
+}
+
+.fas {
+  pointer-events: none;
+}
