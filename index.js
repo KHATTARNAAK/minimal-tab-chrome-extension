@@ -1,4 +1,3 @@
-import changeColor from "./changeColour";
 function showTime() {
   const date = new Date();
   let hours = date.getHours();
