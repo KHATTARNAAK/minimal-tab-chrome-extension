@@ -2,13 +2,7 @@
 a minimal digital clock for your new tab.
 
 ## Description
-Replace new tab page with a minimal clock with both dark and light modes.
-
-### HELP & SUGGESTIONS
-Email at: manavendra4288@gmail.com
-
-### GET IN TOUCH
-Twitter: @manavendrasen
+A chrome extension to replace new tab page with a minimal clock with both dark and light modes.
 
 ## Contributing
 To contribute, follow these steps:
