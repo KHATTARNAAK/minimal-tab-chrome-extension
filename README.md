@@ -1,6 +1,8 @@
 # minimal tab
 a minimal digital clock for your new tab.
 
+!(https://img.shields.io/badge/status-Under%20Review-green?style=for-the-badge)
+
 ## Description
 A chrome extension to replace the new tab page with a minimal clock with both dark and light modes.
 
