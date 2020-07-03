@@ -2,7 +2,7 @@
 a minimal digital clock for your new tab.
 
 ## Description
-A chrome extension to replace new tab page with a minimal clock with both dark and light modes.
+A chrome extension to replace the new tab page with a minimal clock with both dark and light modes.
 
 ## Contributing
 To contribute, follow these steps:
