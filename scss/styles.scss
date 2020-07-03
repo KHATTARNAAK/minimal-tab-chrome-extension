@@ -1,12 +1,7 @@
 //imports
 @import "./container";
-
-//variables
-$text-font: "Roboto", sans-serif;
-$heading-font: "Quicksand ", sans-serif;
-$text-font: "Quicksand", sans-serif;
-$background-color-dark: #000000;
-$background-color-light: #ffffff;
+@import "./config";
+@import "./menu";
 
 * {
   box-sizing: border-box;
@@ -20,19 +15,25 @@ body {
   background-color: $background-color-dark;
   color: white;
   .clock {
-    color: #263238;
+    color: $dark-text-color;
     &:hover {
       color: #ffffff;
     }
+  }
+  .color-button {
+    color: $dark-text-color;
   }
 }
 .light-mode {
   background-color: $background-color-light;
   color: black;
   .clock {
-    color: #cfd8dc;
+    color: $light-text-color;
     &:hover {
       color: #000000;
     }
+  }
+  .color-button {
+    color: $light-text-color;
   }
 }
