@@ -7,6 +7,9 @@ function showTime() {
   if (hours > 12) {
     hours -= 12;
   }
+  if (hours == 0) {
+    hours = 12;
+  }
 
   hours = hours < 10 ? "0" + hours : hours;
   minutes = minutes < 10 ? "0" + minutes : minutes;
