@@ -1,6 +1,8 @@
 //imports
 @import "./container";
 
+//variables
+$text-font: "Roboto", sans-serif;
 $heading-font: "Quicksand ", sans-serif;
 $text-font: "Quicksand", sans-serif;
 $background-color-dark: #263238;
@@ -11,6 +13,8 @@ $background-color-light: #ffffff;
 }
 body {
   font-family: $text-font;
+  margin: 0em;
+  padding: 0em;
 }
 .dark-mode {
   background-color: $background-color-dark;
