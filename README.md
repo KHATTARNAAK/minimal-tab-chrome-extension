@@ -5,6 +5,7 @@
 ![Category](https://img.shields.io/badge/category-Productivity-blue?style=for-the-badge)
 
 a minimal digital clock for your new tab.
+Install it here [minimal tab on Chrome Web Store](https://chrome.google.com/webstore/detail/minimal-tab/ifankoleifdaeemkniijicghmkmdjokl?hl=en&authuser=0)
 
 ## Description
 A chrome extension to replace the new tab page with a minimal clock with both dark and light modes.
@@ -15,8 +16,7 @@ A chrome extension to replace the new tab page with a minimal clock with both da
 
 ## Usage
 
-Since the extension is not public yet. To use it on your machine, download this repo as a zip and then unzip the project.
-
+To use it in developer mode
 1. Open the Extension Management page on your **chromium based browser** by navigating to chrome://extensions.
  * The Extension Management page can also be opened by clicking on the Chrome menu, hovering over More Tools then selecting Extensions.
 2. Enable Developer Mode by clicking the toggle switch next to Developer mode.
