@@ -5,6 +5,7 @@
 ![Category](https://img.shields.io/badge/category-Productivity-blue?style=for-the-badge)
 
 a minimal digital clock for your new tab.
+
 Install it here [minimal tab on Chrome Web Store](https://chrome.google.com/webstore/detail/minimal-tab/ifankoleifdaeemkniijicghmkmdjokl?hl=en&authuser=0)
 
 ## Description
